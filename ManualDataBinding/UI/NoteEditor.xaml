@@ -11,7 +11,7 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="Title" FontSize="30" TextAlignment="Center"/>
-        <TextBox x:Name="Body" Grid.Row="1"/>
+        <TextBox x:Name="Title" TextChanged="OnTitleChanged" FontSize="30" TextAlignment="Center"/>
+        <TextBox x:Name="Body" TextChanged="OnBodyChanged" Grid.Row="1"/>
     </Grid>
 </UserControl>

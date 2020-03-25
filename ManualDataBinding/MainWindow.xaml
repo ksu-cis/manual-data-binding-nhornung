@@ -18,8 +18,8 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <ui:NoteEditor x:Name="Editor" Grid.ColumnSpan="3"/>
-        <Button Grid.Row="1">New Note</Button>
-        <Button Grid.Row="1" Grid.Column="1">Mutate Note</Button>
-        <Button Grid.Row="1" Grid.Column="2">Clear Note</Button>
+        <Button Click="OnNewNote" Grid.Row="1">New Note</Button>
+        <Button Click="OnMutateNote" Grid.Row="1" Grid.Column="1">Mutate Note</Button>
+        <Button Click="OnClearNote" Grid.Row="1" Grid.Column="2">Clear Note</Button>
     </Grid>
 </Window>
